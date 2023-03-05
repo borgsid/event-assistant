@@ -48,7 +48,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h2>Your personal assistant to the Fuorisalone</h2>
+            <h2>Your personal assistant to the 2021 Fuorisalone</h2>
           </div>
           <div className="header-subtitle">
             <h2>Ask your assistant where you want to go and what you want to do!</h2>
