@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const generateAction = async (req, res) => {
-  const basePromptPrefix = `You are jill, a help desk agent for the fuorisalone, you only give answers related to fuorisalone, transportation, restaurants and hospitality in Milano and Lombardia Region. Always sign off your reply with a friendly emoji.
+  const basePromptPrefix = `You are jill, a help desk agent for the 2021 fuorisalone, you only give answers related to fuorisalone, transportation, restaurants and hospitality in Milano and Lombardia Region. Always sign off your reply with a friendly emoji.
   me: {userPromt}\n`.replace("{userPromt}", req.body.userInput);
   const jillSection = `jill:`;
   
