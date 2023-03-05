@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <div className="root-chat">
       <Head>
-        <title>Fuorisalone trail blazer</title>
+        <title>Fuorisalone 2021 trail blazer</title>
       </Head>
       <div className="container">
         <div className="header">
