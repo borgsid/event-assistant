@@ -1,37 +1,31 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
-
-const Home = () => {
-  return (
-    <div className="root">
-      <Head>
-        <title>GPT-3 Writer | buildspace</title>
-      </Head>
-      <div className="container">
-        <div className="header">
-          <div className="header-title">
-            <h1>sup, insert your headline here</h1>
-          </div>
-          <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
-          </div>
+const CHAT = () => {
+    return (
+        <div className="root">
+            <title> A Kageboshi services</title>
+            <section className="hero">
+                <h1>Kageboshi, your everyday assistant</h1>
+                <p>Your enigmatic friend, always ready to lend a helping hand</p>
+                <a href="/chat" className="btn">Learn More</a>
+            </section>
+            <section className="features">
+                <div>
+                    <img src="https://via.placeholder.com/300x200" alt="Feature 1" />
+                    <h2>Fuorisalone</h2>
+                    <p>Fuorisalone is a design and cultural event held during Milan Design Week.</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200" alt="Feature 2" />
+                    <h2>Salone del Mobile</h2>
+                    <p>Salone del Mobile is an annual furniture and design exhibition held in Milan</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/300x200" alt="Feature 3" />
+                    <h2>Milan Design Week side events</h2>
+                    <p>Mostly offsite exhibitions, installations, and pop-ups that showcase design and creativity across the city.</p>
+                </div>
+            </section>
         </div>
-      </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  );
-};
+    );
+}
 
-export default Home;
+export default CHAT
