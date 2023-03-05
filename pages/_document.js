@@ -34,7 +34,7 @@ export default function Document() {
           </div>
           <div>
             <br />
-            <p>&copy; 2023 Minimalist Page. All Rights Reserved.</p>
+            <p>Built by borgsid. All Rights Reserved.</p>
           </div>
         </footer>
       </body>
