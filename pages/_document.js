@@ -26,11 +26,11 @@ export default function Document() {
         <Main />
         <NextScript />
         <footer>
-          <div class="social-icons">
-            <a target="_blank" href="https://www.facebook.com/sydneyisaiah.lukee"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.instagr.am/borgsid"><i class="fa fa-instagram"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/borgsid"><i class="fa fa-linkedin"></i></a>
-            <a target="_blank" href="https://www.twitter.com/sydney_lukee"><i class="fa fa-twitter"></i></a>
+          <div className="social-icons">
+            <a target="_blank" href="https://www.facebook.com/sydneyisaiah.lukee"><i className="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagr.am/borgsid"><i className="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/borgsid"><i className="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.twitter.com/sydney_lukee"><i className="fa fa-twitter"></i></a>
           </div>
           <div>
             <br />

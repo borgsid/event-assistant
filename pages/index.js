@@ -1,6 +1,6 @@
 const CHAT = () => {
     return (
-        <div className="root">
+        <main className="root" id="main">
             <title> A Kageboshi services</title>
             <section className="hero">
                 <h1>Kageboshi, your everyday assistant</h1>
@@ -24,7 +24,7 @@ const CHAT = () => {
                     <p>Mostly offsite exhibitions, installations, and pop-ups that showcase design and creativity across the city.</p>
                 </div>
             </section>
-        </div>
+        </main>
     );
 }
 

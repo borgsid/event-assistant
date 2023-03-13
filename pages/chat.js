@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-// import buildspaceLogo from '../assets/buildspace-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -20,9 +18,8 @@ const Home = () => {
   };
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
-
     console.log("Calling OpenAI...")
-
+    setApiOutput(`...thinking...`);
     const response = await fetch('/api/generate', {
       method: 'POST',
       headers: {
